@@ -12,7 +12,7 @@ int main (int argc, char*argv[]){
     
     for (int i = 0; i<6; i++)
     {
-        printf("%d", arreglo[i]);
+        printf("%p %d\t", arreglo[i]);
     }
 
     return 0;
