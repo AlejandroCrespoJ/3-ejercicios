@@ -3,10 +3,10 @@
 int main (int argc, char *argv[]) {
     char vocales[] = {'a','e','i','o','u'};
     char *ptr;
-    ptr = vocales;
-    for (int i = 0; i < 6; i++)
+    ptr = &vocales[3];   *ptr = 'x';
+    for (int i = 0; i < 5; i++)
     {
-        printf("%c ", *(ptr+i));
+        printf("%c ", vocales[i]);
     }
 
     return 0;
