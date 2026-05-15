@@ -6,13 +6,13 @@ int main (int argc, char*argv[]){
     int*ptr;
     ptr = &arreglo[0];
     //ptr= arreglo;
-    printf("%d %d", ptr, *ptr);
+    printf("%p %d\t", ptr, *ptr);
     
     
     
-    for (int i = 0; i<6; i++)
+    for (int i = 0; i < 6; i++)
     {
-        printf("%p %d\t", arreglo[i]);
+        printf("%d", arreglo[i]);
     }
 
     return 0;
